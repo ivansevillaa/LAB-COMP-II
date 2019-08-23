@@ -6,9 +6,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
 
-        CuentaCorriente cr = new CuentaCorriente("Ivan", 25);
+        System.out.println("Cantidad de cuentzas a ingresar: ");
+        int cantidadCuentas = sn.nextInt();
+        CuentaCorriente[] cuentas = new CuentaCorriente[cantidadCuentas];
+        CuentaCorriente.CargarCuentas(cuentas);
+        CuentaCorriente.ListarCuentas(cuentas);
 
-        do {
+        System.out.println("Cuenta a buscar: ");
+        int nroCuenta = sn.nextInt();
+        CuentaCorriente cuentaBuscada = new CuentaCorriente();
+        cuentaBuscada = CuentaCorriente.BuscarCuenta(cuentas, nroCuenta);
+        System.out.println(cuentaBuscada.mostrarDatos());
+
+        /*do {
             System.out.println("Que desea hacer:");
             System.out.println("1. Ingresar dinero en su cuenta");
             System.out.println("2. Sacar dinero de su cuenta");
@@ -34,6 +44,6 @@ public class Main {
                     System.out.println("La opcion ingresada no existe :(");
             }
             System.out.println("Si quiere salir presione 0. Si desea seguir presione cualquier numero");
-        } while(sn.nextInt() != 0);
+        } while(sn.nextInt() != 0);*/
     }
 }
