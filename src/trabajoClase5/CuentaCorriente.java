@@ -26,7 +26,7 @@ public class CuentaCorriente {
             this.saldo += dinero;
             System.out.println("Usted ahora tiene en su cuenta: $" + this.saldo);
         } else {
-            System.out.println("No podes sacar menos de $0.1");
+            System.out.println("No podes ingresar menos de $0.1");
         }
 
     }
