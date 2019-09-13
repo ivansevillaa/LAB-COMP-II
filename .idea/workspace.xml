@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9956f50-6f59-4308-b752-d1e780c1ad53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LAB-COMP-II/trabajoClase5/CuentaCorriente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB-COMP-II/trabajoClase5/CuentaCorriente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trabajoClase5/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trabajoClase5/CuentaCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trabajoPractico5/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trabajoPractico5/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trabajoPractico5/Facultad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trabajoPractico5/Facultad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trabajoPractico5/UsoFacultad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trabajoPractico5/UsoFacultad.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
