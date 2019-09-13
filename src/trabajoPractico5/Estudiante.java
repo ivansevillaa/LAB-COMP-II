@@ -1,4 +1,4 @@
-package TP5;
+package trabajoPractico5;
 
 public class Estudiante {
 

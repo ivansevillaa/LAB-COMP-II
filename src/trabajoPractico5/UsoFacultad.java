@@ -1,4 +1,4 @@
-package TP5;
+package trabajoPractico5;
 
 //Trabajo practico 5
 //INTEGRANTES: ALVAREZ JEREMIAS , GARCIA AGUSTIN, SEVILLA IVAN , OBREGON SERGIO NICOLAS
