@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9956f50-6f59-4308-b752-d1e780c1ad53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trabajoPractico6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trabajoPractico6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trabajoPractico6/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trabajoPractico6/PasswordGenerator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +43,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trabajoPractico3.Ejercicio4" />
+  <component name="RunManager" selected="Application.Ejercicio3">
+    <configuration name="Ejercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trabajoPractico7.Ejercicio2" />
       <module name="LAB-COMP-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trabajoPractico3.*" />
+          <option name="PATTERN" value="trabajoPractico7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trabajoPractico3.Ejercicio5" />
+    <configuration name="Ejercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trabajoPractico7.Ejercicio3" />
       <module name="LAB-COMP-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trabajoPractico3.*" />
+          <option name="PATTERN" value="trabajoPractico7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio3" />
+        <item itemvalue="Application.Ejercicio2" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.UsoCuenta" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Ejercicio5" />
-        <item itemvalue="Application.Ejercicio4" />
       </list>
     </recent_temporary>
   </component>
