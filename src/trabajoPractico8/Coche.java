@@ -1,11 +1,11 @@
-package tp8;
+package trabajoPractico8;
 
 public class Coche implements Vehiculo {
     private int velocidad = 0;
 
     public Coche(int velocidad) {
         if(velocidad > VELOCIDAD_MAXIMA) {
-            System.out.println("La velocidad inicial ha superado la velocidad máxima ha sido superada");
+            System.out.println("La velocidad inicial ha superado la velocidad máxima");
         }
         this.velocidad = velocidad;
     }
@@ -32,5 +32,12 @@ public class Coche implements Vehiculo {
             this.velocidad = 0;
         }
         return "La velocidad ha sido reducida, ahora vas a " + this.velocidad;
+    }
+
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "velocidad=" + velocidad +
+                '}';
     }
 }

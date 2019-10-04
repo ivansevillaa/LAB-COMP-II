@@ -1,11 +1,11 @@
-package tp8;
+package trabajoPractico8;
 
 public class Moto implements Vehiculo {
     private int velocidad = 0;
 
     public Moto(int velocidad) {
         if(velocidad > VELOCIDAD_MAXIMA) {
-            System.out.println("La velocidad inicial ha superado la velocidad máxima ha sido superada");
+            System.out.println("La velocidad inicial ha superado la velocidad máxim");
         }
         this.velocidad = velocidad;
     }
@@ -32,5 +32,28 @@ public class Moto implements Vehiculo {
             this.velocidad = 0;
         }
         return "La velocidad ha sido reducida, ahora vas a " + this.velocidad;
+    }
+
+    public String frenarConFrenoDelantero(int cantidadFrenar) {
+        this.velocidad -= cantidadFrenar/2;
+        if(this.velocidad < 0) {
+            this.velocidad = 0;
+        }
+        return "La velocidad ha sido reducida con el freno delantero, ahora vas a " + this.velocidad;
+    }
+
+    public String frenarConFrenoTrasero(int cantidadFrenar) {
+        this.velocidad -= cantidadFrenar/2;
+        if(this.velocidad < 0) {
+            this.velocidad = 0;
+        }
+        return "La velocidad ha sido reducida con el freno trasero, ahora vas a " + this.velocidad;
+    }
+
+    @Override
+    public String toString() {
+        return "Moto{" +
+                "velocidad=" + velocidad +
+                '}';
     }
 }

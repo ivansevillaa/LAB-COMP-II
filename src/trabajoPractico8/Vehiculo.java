@@ -1,4 +1,4 @@
-package tp8;
+package trabajoPractico8;
 
 public interface Vehiculo {
     final int VELOCIDAD_MAXIMA = 120;
