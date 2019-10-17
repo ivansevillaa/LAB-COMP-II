@@ -6,11 +6,6 @@ import java.util.Scanner;
 public class Cine {
 
     public static void main(String[] args) {
-        /*
-             3. Falta
-             11.
-                c. Falta
-        */
         Scanner sn = new Scanner(System.in);
         String nombre;
         int edad;
